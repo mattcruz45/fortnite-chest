@@ -79,7 +79,7 @@ function randomLoadout() {
     ammo.src = weaponOdds[num][2];
 
     //items
-    n = Math.floor(Math.random() * 14) + 1;
+    n = Math.floor(Math.random() * 13) + 1;
     for (let i = 0; i < 13; i++) {
     if (items[i][0] == n){
         item.src = items[i][1];
