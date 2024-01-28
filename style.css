@@ -19,3 +19,10 @@
     background-color: transparent;
     width: 250px;
 }
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 10;
+    width: 300px;
+}
