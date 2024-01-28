@@ -1,13 +1,21 @@
+*  {
+    background-color: rgb(206, 135, 241);
+    margin-top: 10px;
+}
+
 #chest {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-*  {
-    background-color: beige;
+
+.loadout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .loadout img{
-    background-color: purple;
+    background-color: transparent;
     width: 250px;
 }

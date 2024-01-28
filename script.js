@@ -101,4 +101,6 @@ function randomLoadout() {
     else {
         mats.src = 'images/mats/metal.webp';
     }
+
+    setTimeout(() => {chest.src = 'images/closed-chest.png';}, 1000);
 }
