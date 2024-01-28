@@ -67,7 +67,6 @@ function randomLoadout() {
     chest.src = 'images/opened-chest.png';
 
     //weapons and ammo
-
     var n = Math.floor(Math.random() * 120);
     var num = 0;
     for (let i = 0; i < 38; i++) {
@@ -76,21 +75,19 @@ function randomLoadout() {
             break;
         }
     }
-
     weapon.src = weaponOdds[num][1];
     ammo.src = weaponOdds[num][2];
 
     //items
-
-    n = Math.floor(Math.random() * 13) + 1;
-    for (let i = 0; i < 14; i++)
-        if (items[i][0] == n){
-            item.src = items[n][1];
-            break;
+    n = Math.floor(Math.random() * 14) + 1;
+    for (let i = 0; i < 13; i++) {
+    if (items[i][0] == n){
+        item.src = items[i][1];
+        break;
         }
-    
+    } 
+
     //mats
-    
     n = Math.floor(Math.random() * 3) + 1;
     if (n == 1){
         mats.src = 'images/mats/brick.webp';
